@@ -7,8 +7,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Person />
-        <Person />
+        <Person name="bharghav" age="28" />
+        <Person name="sagr" age="33" hobbies="racing" />
       </div>
     );
   }

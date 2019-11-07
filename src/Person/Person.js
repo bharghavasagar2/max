@@ -1,9 +1,10 @@
 import React from "react";
 
-export const Person = () => {
+export const Person = props => {
   return (
     <div>
-      <h1>welcome</h1>
+      <h1>{props.name}</h1>
+      <h2>{props.age}</h2>
     </div>
   );
 };
