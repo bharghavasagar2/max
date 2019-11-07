@@ -3,8 +3,9 @@ import React from "react";
 export const Person = props => {
   return (
     <div>
-      <h1>{props.name}</h1>
-      <h2>{props.age}</h2>
+      <h1>
+        i am a person {props.name} and i am {props.age} old{" "}
+      </h1>
     </div>
   );
 };
