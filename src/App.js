@@ -6,12 +6,14 @@ import { Person } from "./Person/Person";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Person name="bharghav" age="28" />
         <Person name="sagr" age="33">
           hobbies:racing
         </Person>
-        <Person>welcome</Person>
+        <Person name="prasad" age="22">
+          hobbies:surfing
+        </Person>
       </div>
     );
   }
