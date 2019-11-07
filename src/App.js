@@ -11,6 +11,7 @@ class App extends React.Component {
         <Person name="sagr" age="33">
           hobbies:racing
         </Person>
+        <Person>welcome</Person>
       </div>
     );
   }
